@@ -1,0 +1,89 @@
+/* HEADER  STYLING*/
+.header-container {
+    overflow: hidden;
+    background-color: #090A0E;
+    color: white;
+    padding: 20px 10px;
+  }
+
+
+  .header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10px;
+  }
+
+  .search{
+    border: 1px solid #2f4f4f;
+    outline: transparent;
+    padding: 5px 10px;
+    border-radius: 25px;
+  }
+
+  .search-btn{
+    cursor: pointer;
+  }
+
+  .logo{
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+
+  @media screen and (max-width: 500px) {
+    .header-content {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+
+/* BODY STYLING*/
+
+.card-container{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    box-sizing: border-box;
+
+background-color: black;
+    color: white;
+    margin: 0;
+    margin-top: 0;
+}
+
+.book-img{
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+
+
+  @media screen and (max-width: 600px) {
+    .card-container {
+       display: grid;
+       grid-template-columns: 1fr;
+    }
+
+    .book-img{
+        width: 80%;
+        height: 80%;
+        margin-left: 30px;
+    }
+
+   
+  }

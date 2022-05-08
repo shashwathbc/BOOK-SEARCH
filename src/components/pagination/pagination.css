@@ -1,0 +1,82 @@
+/* pagination styling */
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+.pagination a {
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  background-color: black;
+  color: white;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .center {
+    text-align: center;
+  }
+  
+  .pagination {
+    display: inline-block;
+    padding-bottom: 20px;
+  }
+  
+  .pagination a {
+    color: #fff;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    margin-top: 40px;
+    border-color: lightgreen;
+    
+  } */
+
+
+
+  
+ 
